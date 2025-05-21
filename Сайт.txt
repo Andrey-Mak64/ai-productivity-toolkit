@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ваш Помощник Искусственный Интеллект</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #0d6efd, #198754);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #0d6efd;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "💡";
+      margin-right: 10px;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #ffc107;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    .features img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 315px;
+      border-radius: 10px;
+    }
+    form input[type="email"] {
+      padding: 10px;
+      width: 250px;
+      margin-right: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      padding: 10px 15px;
+      background: #198754;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e9ecef;
+      font-size: 14px;
+    }
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Искусственный интеллект, который работает на вас</h1>
+  <p>7 готовых шаблонов для ChatGPT, чтобы экономить время и быть продуктивным каждый день</p>
+  <a href="#buy" class="cta-button">Получить доступ за 1970 ₽</a>
+</header>
+
+<div class="container">
+
+  <section class="features">
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 250px;">
+        <img src="https://images.unsplash.com/photo-1581090700227-1cbcb5a2a9d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80 " alt="AI productivity" />
+        <h3>Экономьте время</h3>
+        <p>Автоматизируйте рутину и сосредоточьтесь на важном.</p>
+      </div>
+      <div style="flex: 1; min-width: 250px;">
+        <img src="https://images.unsplash.com/photo-1581093588401-04f24bebb498?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80 " alt="Morning routine" />
+        <h3>Утренняя рутина</h3>
+        <p>Начните день правильно с помощью ИИ.</p>
+      </div>
+      <div style="flex: 1; min-width: 250px;">
+        <img src="https://images.unsplash.com/photo-1593697823755-1828c5b49400?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80 " alt="Productivity tools" />
+        <h3>Продуктивность</h3>
+        <p>Повышайте эффективность без стресса.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Что вы получите:</h2>
+    <ul>
+      <li>7 проверенных шаблонов для ChatGPT</li>
+      <li>Notion-шаблон «Ваш ИИ Помощник»</li>
+      <li>Видеообучение по использованию</li>
+      <li>Мгновенный доступ сразу после оплаты</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Внутри вы найдете:</h2>
+    <ol>
+      <li>Утренняя рутина за 60 секунд</li>
+      <li>Генератор задач по матрице Эйзенхауэра</li>
+      <li>Автоматизация email-переписки</li>
+      <li>Скрипт для планирования дня</li>
+      <li>Анализ времени через ИИ</li>
+      <li>Скоростные заметки по методу Zettelkasten</li>
+      <li>Запуск идеи проекта за 1 день</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Как это работает?</h2>
+    <ol>
+      <li><strong>Покупаете</strong> → доступ к системе</li>
+      <li><strong>Скачиваете</strong> → PDF + Notion</li>
+      <li><strong>Используете</strong> → встроенные промты под ChatGPT</li>
+      <li><strong>Экономите</strong> → минимум 5 часов в неделю</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Обучающее видео</h2>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ " title="Обучающее видео" allowfullscreen></iframe>
+  </section>
+
+  <section id="buy">
+    <h2>Цена:</h2>
+    <p>🔹 Единоразовый платёж: <strong>1970 ₽</strong> (или $25 USD)</p>
+    <p>Вы получите полный доступ ко всем материалам. Можно использовать с любым ИИ-ассистентом.</p>
+    <p><a href="#" class="cta-button">Оплатить через Gumroad</a></p>
+  </section>
+
+  <section>
+    <h2>Бесплатный бонус</h2>
+    <p>Подпишитесь и получите шаблон утренней рутины бесплатно:</p>
+    <form>
+      <input type="email" placeholder="Введите ваш email" required />
+      <button type="submit">Получить</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Частые вопросы</h2>
+    <p><strong>Q: Нужен ли мне ChatGPT Plus?</strong><br />
+    A: Нет, можно использовать бесплатную версию или любой другой ИИ-ассистент.</p>
+
+    <p><strong>Q: А если я не знаю, как работать с Notion?</strong><br />
+    A: Всё уже готово — просто скопируйте шаблон и начните заполнять.</p>
+
+    <p><strong>Q: Можно ли получить файл в формате Word?</strong><br />
+    A: Все материалы доступны в PDF, но легко конвертируются.</p>
+  </section>
+
+</div>
+
+<footer>
+  © 2025 Ваш Помощник Искусственный Интеллект<br/>
+  Контакты: support@vash-ii-pomoschik.ru | Telegram: @VashIIPomoshnikBot
+</footer>
+
+</body>
+</html>
